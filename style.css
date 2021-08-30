@@ -21,7 +21,6 @@ body {
 .btn-group {
     display: flex;
     justify-content: space-around;
-    background-color: red;
 }
 
 .btn-family {
@@ -29,6 +28,8 @@ body {
     justify-content: flex-start;
     background-color: none;
     align-content: center;
+    padding-bottom: 2%;
+    padding-top: 2%
 }
 
 .main-rec {
@@ -44,14 +45,15 @@ body {
     display: flex;
     justify-content: center;
     background-color: gray;
-    height: 500px;
-    width: 500px;
+    height: 20vw;
+    width: 30vw;
+    padding-top: 5%;
 }
 
 .main-descr {
     display: flex; 
     justify-content: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 .rec-sec {
     display: flex;
