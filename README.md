@@ -15,7 +15,7 @@ https://www.theaudiodb.com/api/v1/json/1/search.php?s=coldplay
 
 ## Wireframes
 
-[wireframe]("wireframe.jpeg")
+![wireframe](wireframe.jpeg)
 
 ### MVP/PostMVP
  
@@ -49,7 +49,7 @@ https://www.theaudiodb.com/api/v1/json/1/search.php?s=coldplay
 
 ## Priority Matrix
 
-See fill in folder 
+![prioritymatrix](./Assets/pm.png)
 
 ## Timeframes
 
