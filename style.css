@@ -1,0 +1,104 @@
+.header {
+    display: flex;
+    background: gray;
+    justify-content: space-between;
+}
+
+/* .title {
+        
+} */
+
+.head-btn {
+    display: flex;
+}
+
+body {
+    background-color: orange;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.btn-family {
+    display: flex;
+    justify-content: flex-start;
+    background-color: none;
+    align-content: center;
+}
+
+.main-rec {
+    height: 50%;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+}
+
+.main-descr {
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.rec-sec {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rec-sec1 {
+    min-height: 13vw;
+    min-width: 13vw;
+    background-color: red;
+}
+
+.rec-sec2 {
+    min-height: 13vw;
+    min-width: 13vw;
+    background-color: red;
+}
+
+.rec-sec3 {
+    min-height: 13vw;
+    min-width: 13vw;
+    background-color: red;
+}
+
+.rec-descr {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8%;
+}
+
+.descr {
+    vertical-align: auto;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+.footer {
+    display: flex;
+    background: gray;
+    text-align: center;
+    justify-content: center;
+}

@@ -7,5 +7,7 @@
 			"path": "../../../../../Desktop/Retro Inspo Wireframe"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sample-Rewind"
+	}
 }

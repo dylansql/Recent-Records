@@ -15,7 +15,7 @@ https://www.theaudiodb.com/api/v1/json/1/search.php?s=coldplay
 
 ## Wireframes
 
-![wireframe](wireframe.jpeg)
+![wireframe](./Assets/wireframe.jpeg)
 
 ### MVP/PostMVP
  
