@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>RETRO INSPO</title>
 </head>
 <!-- This will be styling the HTML based on the wireframe attached -->
@@ -16,11 +17,17 @@
     <div class="body">
         <!-- this will be in the top of the body class -->
         <!-- each drop will have nav links underneath to set parameters -->
-        <div class="btn-group">    
-            <div class="btn-family" id="time-period"><button>Time Period</button></div>
-            <div class="btn-family" id="genre"><button>Genre</button></div>
-            <div class="btn-family" id="style"><button>Style</button></div>
-            <div class="btn-family" id="generate"><button>Generate</button></div>
+        <div class="btn-group">   
+            <select>
+                <div class="btn-family" id="time-period" name="time-period"><option value="">Time Period</option></div>
+                </select>
+            <select>
+                <div class="btn-family" id="genre" name="genre"><option value="">Genre</option></div>
+                </select>
+            <select>         
+                <div class="btn-family" id="style" name="style"><option value="">Style</option></div>
+                </select>    
+                <div class="btn-family" id="generate"><button>Generate</button></div>
         </div>
         <!-- below is the center div that will hold the 1st recommendation album -->
             <div class="main-rec">

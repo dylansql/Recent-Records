@@ -41,9 +41,9 @@ https://www.theaudiodb.com/api/v1/json/1/search.php?s=coldplay
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 30| Prompt / Wireframes / Priority Matrix / Timeframes / Project approval | Incomplete
-|August 31| Core Application Structure (HTML, CSS, etc.)/ Pseudocode | Incomplete
-|September 1| Actual Code /Clickable Code| Incomplete
+|August 30| Prompt / Wireframes / Priority Matrix / Timeframes / Project approval | Complete
+|August 31| Core Application Structure (HTML, CSS, etc.)/ Pseudocode | Complete
+|September 1| Actual Code/Clickable Code| Incomplete
 |September 2| MVP | Incomplete
 |September 3| Presentations | Incomplete
 
