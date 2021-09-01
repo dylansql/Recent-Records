@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script defer src="script.js"></script>
     <title>RETRO INSPO</title>
 </head>
@@ -17,18 +18,24 @@
     <div class="body">
         <!-- this will be in the top of the body class -->
         <!-- each drop will have nav links underneath to set parameters -->
-        <div class="btn-group">   
-            <select>
-                <div class="btn-family" id="time-period" name="time-period"><option value="">Time Period</option></div>
-                </select>
-            <select>
-                <div class="btn-family" id="genre" name="genre"><option value="">Genre</option></div>
-                </select>
-            <select>         
-                <div class="btn-family" id="style" name="style"><option value="">Style</option></div>
-                </select>    
-                <div class="btn-family" id="generate"><button>Generate</button></div>
-        </div>
+                            <!-- ================================================================================= -->
+                            <!-- <div class="btn-group">   
+                                <select>
+                                    <div class="btn-family" id="time-period" name="time-period"><option value="">Time Period</option></div>
+                                    </select>
+                                <select>
+                                    <div class="btn-family" id="genre" name="genre"><option value="">Genre</option></div>
+                                    </select>
+                                <select>         
+                                    <div class="btn-family" id="style" name="style"><option value="">Style</option></div>
+                                    </select>    
+                                    <div class="btn-family" id="generate"><button>Generate</button></div>
+                            </div> -->
+                            <!-- ================================================================================= -->
+            <div class="search">
+                <input type="text" placeholder="Enter artist name">
+                <button id="search">Search</button>
+            </div>
         <!-- below is the center div that will hold the 1st recommendation album -->
             <div class="main-rec">
                 <div class="mainbox" id="main-rec"></div>
@@ -44,18 +51,18 @@
             <div class="rec-sec3" id="third-rec"></div>
         </div>
         <div class="rec-descr">
-            <div class="descr" id="first-descr">
+            <!-- <div class="descr" id="first-descr">
                 <span class="caption">1st</span>
-                <h3>Hello</h3>
+                <h3 id="desc-1">Hello</h3>
             </div>
             <div class="descr" id="second-descr">
                 <span class="caption">2nd</span>
-                <h3>Hello</h3>
+                <h3 id="desc-2">Hello</h3>
             </div>
             <div class="descr" id="third-descr">
                 <span class="caption">3rd</span>
-                <h3>Hello</h3>
-            </div>
+                <h3 id="desc-3">Hello</h3>
+            </div> -->
         </div>
     </div>
     <!-- this section will have the github repo and linkedIn attached -->

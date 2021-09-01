@@ -23,6 +23,16 @@ body {
     justify-content: space-around;
 }
 
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
 .btn-family {
     display: flex;
     justify-content: flex-start;
