@@ -70,7 +70,7 @@ body {
     justify-content: space-around;
 }
 
-.rec-sec1 {
+/* .rec-sec1 {
     min-height: 13vw;
     min-width: 13vw;
     background-color: red;
@@ -86,7 +86,7 @@ body {
     min-height: 13vw;
     min-width: 13vw;
     background-color: red;
-}
+} */
 
 .rec-descr {
     display: flex;
