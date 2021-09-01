@@ -52,7 +52,7 @@ async function getDesc(artist_name, albums) {
     // ==========================adding class lists to function=================
     // first main title and description
     mainDescdiv.classList.add('mainTrack');
-    titleTag.classList.add('mainTrackdesc');
+    titleTag.classList.add('mainTrackDesc');
     for(let i = 1; i < 4; i++) {
         let res2 = await axios(`${ALBUMPIC}${artist_name}&a=${albums[i].strAlbum}`)
         console.log(res2)
@@ -65,7 +65,7 @@ async function getDesc(artist_name, albums) {
         albumDiv.appendChild(titleTag)
         mainDescdiv.appendChild(albumDiv)
         //======================================================================
-        //======================adding ckast list for secondary=================
+        //======================adding class list for secondary=================
         imgTag.classList.add('secTracks');
         titleTag.classList.add('secTracksDesc');
     }
