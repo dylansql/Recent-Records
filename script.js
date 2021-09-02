@@ -38,36 +38,39 @@ async function getAlbum(artist_name) {
 // =============================================================================
 // ============================Descriptions=====================================
 async function getDesc(artist_name, albums) {
-    let mainDescdiv = document.createElement('div');
+    let mainTrack = document.createElement('div');
     let imgTagMain = document.createElement('img')
     let titleTag = document.createElement('h3'); 
     let res3 = await axios(`${ALBUMPIC}${artist_name}&a=${albums[0].strAlbum}`)
     imgTagMain.setAttribute('src', res3.data.album[0].strAlbumThumb);
-    mainDescdiv.appendChild(imgTagMain);
-    let descDiv = document.querySelector('.descDiv')
+    mainTrack.appendChild(imgTagMain);
+    let mainTrackDiv = document.querySelector('.main-rec')
     titleTag.innerText = albums[0].strAlbum
-    mainDescdiv.appendChild(titleTag)
-    descDiv.appendChild(mainDescdiv);
+    mainTrack.appendChild(titleTag)
+    mainTrackDiv.appendChild(mainTrack);
     //==========================================================================
     // ==========================adding class lists to function=================
     // first main title and description
-    mainDescdiv.classList.add('mainTrack');
+    mainTrack.classList.add('mainTrack');
     titleTag.classList.add('mainTrackDesc');
+    // =========================================================================
+    // ======for loop is creating divs and images for secondary albums==========
     for(let i = 1; i < 4; i++) {
         let res2 = await axios(`${ALBUMPIC}${artist_name}&a=${albums[i].strAlbum}`)
         console.log(res2)
+        let secondaryTracks = document.createElement('div');
         let imgTag = document.createElement('img')
+        let secondaryTitleTag = document.createElement('p'); 
         imgTag.setAttribute('src', res2.data.album[0].strAlbumThumb)
-        let albumDiv = document.createElement('div');
-        albumDiv.appendChild(imgTag)
-        let titleTag = document.createElement('p'); 
-        titleTag.innerText = albums[i].strAlbum
-        albumDiv.appendChild(titleTag)
-        mainDescdiv.appendChild(albumDiv)
+        secondaryTitleTag.innerText = albums[i].strAlbum
+        let secondaryTrackDiv = document.querySelector('.rec-sec')
+        secondaryTracks.appendChild(imgTag)
+        secondaryTracks.appendChild(titleTag)
+        secondaryTrackDiv.appendChild(secondaryTracks)
         //======================================================================
         //======================adding class list for secondary=================
-        imgTag.classList.add('secTracks');
-        titleTag.classList.add('secTracksDesc');
+        secondaryTracks.classList.add('secTracks');
+        secondaryTitleTag.classList.add('secTracksDesc');
     }
     
 }

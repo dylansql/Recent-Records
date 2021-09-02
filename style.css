@@ -4,25 +4,6 @@
     justify-content: space-between;
 }
 
-/* .title {
-        
-} */
-
-.head-btn {
-    display: flex;
-}
-
-body {
-    background-color: orange;
-    align-content: space-around;
-    justify-content: center;
-}
-
-/* .btn-group {
-    display: flex;
-    justify-content: space-around;
-} */
-
 .search {
     display: flex;
     justify-content: center;
@@ -32,113 +13,62 @@ body {
     margin-right: 16px;
     font-size: 17px;
 }
-
-/* .btn-family {
+.head-btn {
     display: flex;
-    justify-content: flex-start;
-    background-color: none;
-    align-content: center;
-    padding-bottom: 2%;
-    padding-top: 2%
-} */
-
-/* .main-rec {
-    height: 50%;
-    width: 70%;
-    justify-content: center;
-    display: flex;
-    padding-left: 15%;
-    padding-top: 5%;
-} */
-
-/* .mainbox {
-    display: flex;
-    justify-content: center;
-    background-color: gray;
-    height: 20vw;
-    width: 30vw;
-    padding-top: 5%;
-} */
-
-/* .main-descr {
-    display: flex; 
-    justify-content: center;
-    padding-bottom: 5%;
 }
-.rec-sec {
+body {
+    background-color: orange;
+    align-content: space-around;
+    justify-content: center;
+}
+.body {
+    display: flex;
+    flex-direction: row;
+}
+/* Main Track */
+.main-rec {
     display: flex;
     justify-content: space-around;
-} */
-
-.mainTrack {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
     height: 300px;
     width: 300px;
+    padding-bottom: 2%;
+}
+/* Secondary Tracks */
+.secTracks {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    padding-top: 5%;
 }
 
+
+
+
+
+
+
+
 .mainTrackDesc {
-    display: flex;
+    /* display: flex;
     justify-content: flex;
     align-content: flex-end;
     flex-wrap: wrap;
+    flex-direction: row; */
 }
 
 .secTracks {
-height: 300px;
+/* height: 300px;
 width: 300px;
 display: flex;
 justify-content: space-between;
-align-content: center;
+align-content: flex-end;
+flex-wrap: row wrap;
+flex-direction: row; */
 }
 
 .secTracksDesc {
-
+    /* vertical-align: center; */
+    /* flex-direction: row; */
 }
 
-/* .rec-sec1 {
-    min-height: 13vw;
-    min-width: 13vw;
-    background-color: red;
-}
-
-.rec-sec2 {
-    min-height: 13vw;
-    min-width: 13vw;
-    background-color: red;
-}
-
-.rec-sec3 {
-    min-height: 13vw;
-    min-width: 13vw;
-    background-color: red;
-} */
-
-.rec-descr {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 8%;
-}
-
-.descr {
-    vertical-align: auto;
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-
-
-
-
-
-.footer {
-    display: flex;
-    background: gray;
-    text-align: center;
-    justify-content: center;
-}
