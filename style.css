@@ -2,7 +2,12 @@
     display: flex;
     background: gray;
     justify-content: space-between;
+    margin: 0%;
+    padding: 0px;
+    border: rgb(150, 67, 67);
+    border-style: double;
 }
+
 
 .search {
     display: flex;
@@ -12,16 +17,42 @@
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    color: red;
 }
+
 .head-btn {
     display: flex;
+    border: none;
+    border-radius: 10px;
 }
 body {
-    background-color: orange;
-    /* align-content: space-around; */
-    flex-direction: row;
-    justify-content: center;
+    background-color: rgb(218, 210, 210);
+    border: none;
 }
+/* 
+body {
+    /* background: linear-gradient(-90deg, #210124, #DBF9F0, #B3DEC1, #750D37);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh; 
+}*/
+
+/* @keyframes gradient {
+    0% {
+        background-position: 33% 50%;
+	}
+	50% {
+        background-position: 86% 14%;
+	}
+	100% {
+        background-position: 67% 5%;
+	}
+} */
+
+
+
+
+
 /* .body {
     display: flex;
     flex-direction: column;
@@ -29,12 +60,33 @@ body {
 .main-rec {
     align-content: center;
 }
+
+
+
 .container-1 {
     display: flex;
     justify-content: center;
-    padding-bottom: 10%;
+    padding-bottom: 4%;
     align-content: center;
 }
+
+/* @media (min-width: 800px) {
+    .container-1 {
+        display: flex;
+        align-content: center;
+        padding-bottom: 12%;
+    }
+} */
+
+/* @media (min-width: 800px) {
+    .body {
+        display: flex;
+        align-content: flex-start;
+    }
+} */
+
+
+
 .container-1 img {
     max-height: 120%;
 }
@@ -65,7 +117,7 @@ body {
     height: 300px;
     width: 300px;
     padding-top: 5%;
-    
+    padding-right: 1%;
 }
 
 .descDiv {
@@ -75,20 +127,46 @@ body {
 
 .secTracks {
     animation-name: drive;
-    animation-duration: 15s;
+    animation-duration: 20s;
     animation-fill-mode: both;
-    animation-iteration-count: 5;
+    animation-iteration-count: 12;
     padding-bottom: 5%;
 }
 
 @keyframes drive {
-    from{   transform: translateX(1100px)}
-    to{ transform: translateX(-800px)}
+    from{   transform: translateX(2000px)}
+    to{ transform: translateX(-2320px)}
 }
 
 .footer {
     display: flex;
     justify-content: center;
     background-color: gray;
+    margin: 0%;
+    padding: 0%;
+}
+
+@media only screen and (max-width: 800px) {
+        .body {
+        display: flex;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        }
+        .header {
+        
+        }
+        .container-1 {
+
+        }
+        .container-2{ 
+
+        }
+        .main-rec {
+
+        }
+        .footer {
+
+        }
 }
 

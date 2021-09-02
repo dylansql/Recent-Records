@@ -13,6 +13,8 @@ Recent records is an application that allows users to enter artist names and ren
 
 https://www.theaudiodb.com/api/v1/json/1/search.php?s=coldplay
 
+theaudiodb.com/api/v1/json/{APIKEY}/discography.php?s=coldplay
+
 ## Wireframes
 
 ![wireframe](./Assets/wireframe.jpeg)

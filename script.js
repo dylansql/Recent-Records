@@ -82,9 +82,15 @@ const searchB = document.querySelector("#search");
 
 const input = document.querySelector("input");
 
+// let containerOne = document.querySelector('.mainTrack')
+
+// let containerTwo = document.querySelector('.secTracks')
+
 searchB.addEventListener('click', () => {
+    // containerOne.innerText = "";
+    // containerTwo.innerText = "";
     let artist_name = input.value; 
-    getAlbum(artist_name);
+    getAlbum(artist_name)
 })
 
 // ==============================================================================
