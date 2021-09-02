@@ -55,7 +55,7 @@ async function getDesc(artist_name, albums) {
     titleTag.classList.add('mainTrackDesc');
     // =========================================================================
     // ======for loop is creating divs and images for secondary albums==========
-    for(let i = 1; i < 4; i++) {
+    for(let i = 1; i < 10; i++) {
         let res2 = await axios(`${ALBUMPIC}${artist_name}&a=${albums[i].strAlbum}`)
         console.log(res2)
         let secondaryTracks = document.createElement('div');
@@ -63,9 +63,9 @@ async function getDesc(artist_name, albums) {
         let secondaryTitleTag = document.createElement('p'); 
         imgTag.setAttribute('src', res2.data.album[0].strAlbumThumb)
         secondaryTitleTag.innerText = albums[i].strAlbum
-        let secondaryTrackDiv = document.querySelector('.rec-sec')
+        let secondaryTrackDiv = document.querySelector('.descDiv')
         secondaryTracks.appendChild(imgTag)
-        secondaryTracks.appendChild(titleTag)
+        secondaryTracks.appendChild(secondaryTitleTag)
         secondaryTrackDiv.appendChild(secondaryTracks)
         //======================================================================
         //======================adding class list for secondary=================

@@ -18,57 +18,76 @@
 }
 body {
     background-color: orange;
-    align-content: space-around;
+    /* align-content: space-around; */
+    flex-direction: row;
     justify-content: center;
 }
-.body {
+/* .body {
     display: flex;
+    flex-direction: column;
+} */
+.main-rec {
+    align-content: center;
+}
+.container-1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+    align-content: center;
+}
+.container-1 img {
+    max-height: 120%;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
     flex-direction: row;
+    justify-content: space-around
+    
+}
+
+.container-2 img {
+    max-height: 120%;
 }
 /* Main Track */
 .main-rec {
     display: flex;
     justify-content: space-around;
     height: 300px;
-    width: 300px;
+    width: 250px;
     padding-bottom: 2%;
 }
 /* Secondary Tracks */
 .secTracks {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 300px;
     width: 300px;
     padding-top: 5%;
+    
 }
 
-
-
-
-
-
-
-
-.mainTrackDesc {
-    /* display: flex;
-    justify-content: flex;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    flex-direction: row; */
+.descDiv {
+    display: flex;
 }
+
 
 .secTracks {
-/* height: 300px;
-width: 300px;
-display: flex;
-justify-content: space-between;
-align-content: flex-end;
-flex-wrap: row wrap;
-flex-direction: row; */
+    animation-name: drive;
+    animation-duration: 15s;
+    animation-fill-mode: both;
+    animation-iteration-count: 5;
+    padding-bottom: 5%;
 }
 
-.secTracksDesc {
-    /* vertical-align: center; */
-    /* flex-direction: row; */
+@keyframes drive {
+    from{   transform: translateX(600px)}
+    to{ transform: translateX(-900px)}
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
