@@ -32,7 +32,7 @@ body {
 .container-1 {
     display: flex;
     justify-content: center;
-    padding-bottom: 3%;
+    padding-bottom: 10%;
     align-content: center;
 }
 .container-1 img {
@@ -82,8 +82,8 @@ body {
 }
 
 @keyframes drive {
-    from{   transform: translateX(600px)}
-    to{ transform: translateX(-900px)}
+    from{   transform: translateX(1100px)}
+    to{ transform: translateX(-800px)}
 }
 
 .footer {
@@ -91,3 +91,4 @@ body {
     justify-content: center;
     background-color: gray;
 }
+
