@@ -3,11 +3,11 @@
 
 ## Project Name
 
-RETRO INSPO
+RECENT RECORDS
 
 ## Project Description
 
-Sample rewind is an application that helps artists and producers find inspiration for their music. This application will generate a random album/or artist (with the specified parameters)for them to listen to with biography of the aritst background.
+Recent records is an application that allows users to enter artist names and render their previous work. This application will generate a the artists most recent album and subsquent albums underneath.
 
 ## API and Data Sample
 
@@ -23,18 +23,17 @@ https://www.theaudiodb.com/api/v1/json/1/search.php?s=coldplay
 #### MVP 
 
 - Find and use external api 
+- Allow user to enter input in working search
 - Render data on page 
-- create nav links that drop down selectable categories
 - link footer to github and LinkedIn
-- Allow user to generate recommendation albums dependant on their parameters
-
+- transitional background
 
 #### PostMVP  
 
 - Add second API
 - Use local storage to save user favorites
 - when selecting time line. The css will reflect a different time period area.
-- Allow user to save recommendations in seperate page
+- render additional results in a css animation
 - left click to add right click to remove
 
 ## Project Schedule
@@ -72,8 +71,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-
+![codeSnippet](./Assets/favCodeSnip.png)
 
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
+
+The original idea was to create a album/artist generater with given parameters of year, genre, and mood. I thought I had the right api but unfortunately I was not able to access it. 
