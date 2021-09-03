@@ -86,6 +86,15 @@ const input = document.querySelector("input");
 
 // let containerTwo = document.querySelector('.secTracks')
 
+// const selectBox = document.querySelector("secTracks")
+
+// selectBox.addEventListener('click', () = {
+//  let savedSelection = input.value
+//}
+// function saveAlbumName(savedSelection) {
+//  let savedSelection = 
+// } 
+
 searchB.addEventListener('click', () => {
     // containerOne.innerText = "";
     // containerTwo.innerText = "";
