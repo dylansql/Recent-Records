@@ -140,7 +140,7 @@ p {
 
 .secTracks {
     animation-name: drive;
-    animation-duration: 20s;
+    animation-duration: 23s;
     animation-fill-mode: both;
     animation-iteration-count: 12;
     padding-bottom: 5%;
