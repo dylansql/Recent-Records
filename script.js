@@ -37,8 +37,10 @@ async function getAlbum(artist_name) {
 }
 // =============================================================================
 // ============================Descriptions=====================================
+let mainTrack = document.createElement('div');
+let secondaryTrackDiv = document.querySelector('.descDiv')
+
 async function getDesc(artist_name, albums) {
-    let mainTrack = document.createElement('div');
     let imgTagMain = document.createElement('img')
     let titleTag = document.createElement('h3'); 
     let res3 = await axios(`${ALBUMPIC}${artist_name}&a=${albums[0].strAlbum}`)
@@ -63,7 +65,6 @@ async function getDesc(artist_name, albums) {
         let secondaryTitleTag = document.createElement('p'); 
         imgTag.setAttribute('src', res2.data.album[0].strAlbumThumb)
         secondaryTitleTag.innerText = albums[i].strAlbum
-        let secondaryTrackDiv = document.querySelector('.descDiv')
         secondaryTracks.appendChild(imgTag)
         secondaryTracks.appendChild(secondaryTitleTag)
         secondaryTrackDiv.appendChild(secondaryTracks)
@@ -96,11 +97,11 @@ const input = document.querySelector("input");
 // } 
 
 searchB.addEventListener('click', () => {
-    // containerOne.innerText = "";
-    // containerTwo.innerText = "";
-    let artist_name = input.value; 
+    mainTrack.innerText = "";
+    secondaryTrackDiv.innerHTML = "";
+    let artist_name = input.value;
     getAlbum(artist_name)
-})
+});
 
 // ==============================================================================
 // ==============================================================================

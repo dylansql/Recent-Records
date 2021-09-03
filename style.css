@@ -207,6 +207,10 @@ p {
         }
 
     }
+    .header {
+        background-color: thistle;
+        font-size: 20;
+    }
   }
     footer { 
         /* position: absolute; 
