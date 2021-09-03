@@ -44,9 +44,9 @@ theaudiodb.com/api/v1/json/{APIKEY}/discography.php?s=coldplay
 |---|---| ---|
 |August 30| Prompt / Wireframes / Priority Matrix / Timeframes / Project approval | Complete
 |August 31| Core Application Structure (HTML, CSS, etc.)/ Pseudocode | Complete
-|September 1| Actual Code/Clickable Code| Incomplete
-|September 2| MVP | Incomplete
-|September 3| Presentations | Incomplete
+|September 1| Actual Code/Clickable Code| Complete
+|September 2| MVP | Complete
+|September 3| Presentations | Working
 
 ## Priority Matrix
 
@@ -61,12 +61,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | ActualTime |
 | :---: | :---: | :---: | :---: | :---: |
-| Pseudocode | 2H | 2 hrs| 1hrs | 1hrs |
+| Pseudocode | 3H | 3 hrs| 2.5hrs | 3hrs |
 | Working with API | 3H | 3hrs| 2.5hrs | 2.5hrs |
-| Formatting HTML CSS structure | 8H |   |  |  |
-| Clickable Code | 8H |   |  |  |
-| MVP Implementation | 12H |   |  |  |
-| Implementation of DRY code | 3H |   |  |  |
+| Formatting HTML CSS structure | 8H | 4hrs | 3Hrs | 3hrs |
+| Accessing Api Data | 3Hrs | 3Hrs  | 3Hrs | 3Hrs |
+| Create Input for user working search | 2Hrs | 2Hrs | 2Hrs | 2Hrs |
+| MVP | 6Hrs | 6Hrs  | 6Hrs | 6Hrs |
+| Clickable Code | 5Hrs | 5Hrs | 5Hrs | 6Hrs |
+| Clean up code | 3H | 3Hrs | 3Hrs | 3Hrs |
 | Total | 40hrs | 6hrs| 5hrs | 5hrs |
 
 ## Code Snippet
