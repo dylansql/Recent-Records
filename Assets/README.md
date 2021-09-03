@@ -13,7 +13,7 @@ Recent records is an application that allows users to enter artist names and ren
 
 https://www.theaudiodb.com/api/v1/json/1/search.php?s=coldplay
 
-theaudiodb.com/api/v1/json/{APIKEY}/discography.php?s=coldplay
+https://www.theaudiodb.com/api/v1/json/{APIKEY}/discography.php?s=coldplay
 
 ## Wireframes
 
@@ -75,7 +75,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-(./Assets/favCodeSnip.png)
+[faveCodeSnip](./Assets/favCodeSnip.png)
 
 
 ## Change Log
