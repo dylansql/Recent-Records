@@ -75,7 +75,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-[faveCodeSnip](./Assets/favCodeSnip.png)
+![faveCodeSnip](./Assets/favCodeSnip.png)
 
 
 ## Change Log
