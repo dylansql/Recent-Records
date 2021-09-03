@@ -62,23 +62,23 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | ActualTime |
 | :---: | :---: | :---: | :---: | :---: |
 | Pseudocode | 3H | 3 hrs| 2.5hrs | 3hrs |
-| Working with API | 3H | 3hrs| 2.5hrs | 2.5hrs |
+| Working with API | 3H | 3hrs| 2.5hrs | 6.5hrs |
 | Formatting HTML CSS structure | 8H | 4hrs | 3Hrs | 3hrs |
 | Accessing Api Data | 3Hrs | 3Hrs  | 3Hrs | 3Hrs |
 | Create Input for user working search | 2Hrs | 2Hrs | 2Hrs | 2Hrs |
 | MVP | 6Hrs | 6Hrs  | 6Hrs | 6Hrs |
-| Clickable Code | 5Hrs | 5Hrs | 5Hrs | 6Hrs |
+| FlexBox | 5Hrs | 5Hrs | 5Hrs | 7Hrs |
 | Clean up code | 3H | 3Hrs | 3Hrs | 3Hrs |
-| Total | 40hrs | 6hrs| 5hrs | 5hrs |
+| Total | 40hrs | 29Hrs| 32hrs | ~44Hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-![codeSnippet](./Assets/favCodeSnip.png)
+(./Assets/favCodeSnip.png)
 
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
 
-The original idea was to create a album/artist generater with given parameters of year, genre, and mood. I thought I had the right api but unfortunately I was not able to access it. 
+The original idea was to create a album/artist generater with given parameters of year, genre, and mood. I thought I had the right api but unfortunately I was not able to access it. Although I wasn't able to create the original idea. I thought soon after that starting my journey in SE on a smaller scale would be more beneficial. With this pivot in goals I was able to access two Api's while using the result of one to satify the arugment of another. 
